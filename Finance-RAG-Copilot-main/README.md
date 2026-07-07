@@ -1,4 +1,4 @@
-# 📊 Finance RAG Copilot — SVS Praveen (Enterprise Multi-Agent System)
+# 📊 Finance RAG Copilot (Enterprise Multi-Agent System)
 
 
 
@@ -214,4 +214,4 @@ All metrics are **deterministic** — no LLM judge, no randomness, zero extra co
 
 
 
-*Author: SVS Praveen · Architecture: 6-Layer Financial RAG · Status: Production Ready*
+*Authors: SVS Praveen & Ankush Singh · Architecture: 8-Layer Financial RAG · Status: Production Ready*

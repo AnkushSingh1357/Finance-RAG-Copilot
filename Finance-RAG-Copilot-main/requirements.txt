@@ -1,0 +1,55 @@
+# ============================================================
+# SVS PRAVEEN - Finance RAG Copilot
+# Requirements (All lightweight, runs on basic laptop)
+# ============================================================
+
+# Core LangChain
+langchain==0.3.25
+langchain-community==0.3.24
+langchain-core==0.3.59
+langchain-groq==0.3.2
+langchain-qdrant==0.2.0
+langchain-huggingface==0.1.2
+
+# Vector DB Client
+qdrant-client==1.14.2
+
+# PDF Parsing (Fast, no OCR needed)
+pymupdf==1.25.5
+docling
+nltk
+
+# Embeddings (Lightweight local model)
+sentence-transformers==3.4.1
+
+# Cross-Encoder Reranker
+torch==2.6.0
+transformers==4.51.3
+
+# Groq (Free Cloud LLM)
+groq==0.23.1
+
+# BM25 Sparse Search
+rank_bm25==0.2.2
+
+# Deterministic Evaluation
+rapidfuzz==3.12.2
+
+# Database (Audit Logging - PostgreSQL)
+sqlalchemy==2.0.40
+psycopg2-binary==2.9.10
+
+# Web UI
+streamlit==1.45.1
+
+# Utilities
+python-dotenv==1.1.0
+tqdm==4.67.1
+pydantic==2.11.4
+loguru==0.7.3
+
+# Visualization
+plotly==5.24.1
+
+# FastEmbed for sparse vectors
+fastembed>=0.4.0

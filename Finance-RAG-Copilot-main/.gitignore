@@ -1,0 +1,24 @@
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+
+# Local Logs & Data
+logs/
+data/
+*.db
+*.pkl
+
+# IDE / Cloud
+.gemini/
+.vscode/
+.idea/
+
+# Application Specific (Ignore original PDFs if they are too large or sensitive)
+# Keep the pdfs folder, but ignore files inside
+pdfs/*
+!pdfs/.gitkeep

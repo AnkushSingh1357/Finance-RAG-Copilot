@@ -1,5 +1,5 @@
 """
-SVS PRAVEEN - Finance RAG Copilot
+Ankush Singh - Finance RAG Copilot
 evaluator.py - Deterministic Evaluation Engine
 
 Key Features:

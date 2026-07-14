@@ -1,8 +1,8 @@
 # 📊 Enterprise Multi-Agent Finance RAG Copilot
-**Developed by SVS Praveen**
+**Developed by Ankush Singh**
 
 ## Executive Summary
-This document outlines the architecture, technical implementation, and advanced features of the **SVS Finance RAG Copilot**. Engineered to analyze complex SEC 10-K and 10-Q filings, this system overcomes traditional LLM limitations by orchestrating a 6-layer pipeline with hybrid retrieval, deterministic guardrails, and advanced Self-Reflective RAG (Self-RAG) principles to guarantee zero-hallucination financial reporting.
+This document outlines the architecture, technical implementation, and advanced features of the **Ankush Finance RAG Copilot**. Engineered to analyze complex SEC 10-K and 10-Q filings, this system overcomes traditional LLM limitations by orchestrating a 6-layer pipeline with hybrid retrieval, deterministic guardrails, and advanced Self-Reflective RAG (Self-RAG) principles to guarantee zero-hallucination financial reporting.
 
 ---
 
@@ -28,7 +28,7 @@ Retrieval combines **Dense vector search** (semantic meaning) and **Sparse BM25 
 
 ## 🧠 Self-Reflective RAG (Self-RAG) Implementation
 
-To ensure absolute reliability in financial data, the SVS Finance Copilot implements advanced **Self-Reflective RAG (Self-RAG)** mechanisms. Unlike naive RAG systems that blindly retrieve and generate, this architecture continuously evaluates and reflects on its own processes across three distinct stages:
+To ensure absolute reliability in financial data, the Ankush Finance Copilot implements advanced **Self-Reflective RAG (Self-RAG)** mechanisms. Unlike naive RAG systems that blindly retrieve and generate, this architecture continuously evaluates and reflects on its own processes across three distinct stages:
 
 1. **Pre-Retrieval Intent Reflection:** 
    The system doesn't just search the user's raw prompt. The **Intent Planner Agent** reflects on the query to understand its true goal (e.g., Q&A vs. multi-company comparison vs. trend analysis). It actively extracts rigid metadata filters (Company, Year, Quarter) and rewrites the query, significantly narrowing the retrieval scope.
@@ -49,11 +49,11 @@ To ensure absolute reliability in financial data, the SVS Finance Copilot implem
 
 Quantifiable metrics from systematic automated testing run over 120 complex multi-company queries demonstrate the robustness of this architecture:
 
-| Metric | Naive RAG (Vector Only) | Advanced SVS Multi-RAG | Improvement |
+| Metric | Naive RAG (Vector Only) | Advanced Ankush Multi-RAG | Improvement |
 | :--- | :---: | :---: | :---: |
 | **Retrieval Recall (Top-5)** | 62.0% | **94.8%** | +32.8% |
 | **Hallucination Rate** | 18.4% | **0.0%** | -18.4% |
 | **Average Faithfulness** | 74.2% | **99.2%** | +25.0% |
 | **Citation Accuracy** | 55.0% | **100.0%** | +45.0% |
 
-By offloading vector operations to the cloud and utilizing deterministic evaluations, local RAM usage dropped by **57.1%**, while maintaining 100% data validation with zero-substitute guardrails. This makes the SVS Finance RAG Copilot an enterprise-ready, reliable tool for professional financial analysis.
+By offloading vector operations to the cloud and utilizing deterministic evaluations, local RAM usage dropped by **57.1%**, while maintaining 100% data validation with zero-substitute guardrails. This makes the Ankush Finance RAG Copilot an enterprise-ready, reliable tool for professional financial analysis.

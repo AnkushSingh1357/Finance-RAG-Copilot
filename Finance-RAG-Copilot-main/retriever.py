@@ -1,5 +1,5 @@
 """
-SVS PRAVEEN - Finance RAG Copilot
+Ankush Singh - Finance RAG Copilot
 retriever.py - Hybrid Retrieval Engine
 
 Features: Semantic Cache, Dense+Sparse Retrieval, Reranking

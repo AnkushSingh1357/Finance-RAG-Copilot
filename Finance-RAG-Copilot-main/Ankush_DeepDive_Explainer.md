@@ -1,6 +1,6 @@
-# 🎓 The Ultimate SVS Finance RAG Copilot Masterclass
+# 🎓 The Ultimate Ankush Finance RAG Copilot Masterclass
 
-This is your comprehensive study guide and masterclass for the SVS Finance RAG Copilot. It is designed to take you from a beginner level (understanding what RAG is) to an expert level (defending your chunking strategies, multithreading, and zero-hallucination guardrails). 
+This is your comprehensive study guide and masterclass for the Ankush Finance RAG Copilot. It is designed to take you from a beginner level (understanding what RAG is) to an expert level (defending your chunking strategies, multithreading, and zero-hallucination guardrails). 
 
 If your manager asks you *any* question about how this application was built, why a specific tool was used, or how the math works behind the scenes, you will find the answer here.
 
@@ -209,9 +209,9 @@ When the heuristic sees `"iphone"` in the query text, it automatically maps it t
 
 ### 6. Architectural Diagram & Recent Flow Upgrades
 
-Below is the complete architectural map of how the SVS Finance RAG Copilot operates from the moment you send a query, to how it leverages **Qdrant**, **Groq LLMs**, and **SQLite** for audit logging:
+Below is the complete architectural map of how the Ankush Finance RAG Copilot operates from the moment you send a query, to how it leverages **Qdrant**, **Groq LLMs**, and **SQLite** for audit logging:
 
-![Architecture Flow](SVS_Model_Architecture.png)
+![Architecture Flow](Ankush_Model_Architecture.png)
 
 #### Recent Engineering Upgrades
 

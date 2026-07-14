@@ -1,5 +1,5 @@
 """
-SVS PRAVEEN - Finance RAG Copilot
+Ankush Singh - Finance RAG Copilot
 agents.py - Multi-Agent Orchestration System
 
 Agents:

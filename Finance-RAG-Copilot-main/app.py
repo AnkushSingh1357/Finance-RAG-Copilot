@@ -1,5 +1,5 @@
 """
-SVS PRAVEEN - Finance RAG Copilot
+Ankush Singh - Finance RAG Copilot
 app.py - Main Streamlit Web Interface
 
 Run with: streamlit run app.py
@@ -14,7 +14,7 @@ from pathlib import Path
 # PAGE CONFIG
 # ============================================================
 st.set_page_config(
-    page_title="SVS Finance RAG Copilot",
+    page_title="Ankush Finance RAG Copilot",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -574,7 +574,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("""
     <div style="color:#4a6a8a; font-size:0.75em; text-align:center;">
-        SVS Praveen<br>
+        Ankush Singh<br>
         Groq + Qdrant + HuggingFace
     </div>
     """, unsafe_allow_html=True)
@@ -1319,6 +1319,6 @@ elif st.session_state.current_page == "mermaid":
 # ============================================================
 st.markdown("""
 <div style="text-align:center; color:#3a5f80; font-size:0.78em; padding: 20px 0 10px 0; border-top: 1px solid #1a2a40; margin-top: 40px;">
-    SVS Praveen &middot; Finance RAG Copilot v1<br>
+    Ankush Singh &middot; Finance RAG Copilot v1<br>
 </div>
 """, unsafe_allow_html=True)

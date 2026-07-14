@@ -1,7 +1,7 @@
 # Enterprise Multi-Agent Finance RAG Copilot
 ## Professional Portfolio & Technical Documentation
 
-This document contains a professional resume section (150-250 words) suitable for job applications, followed by a comprehensive, 1000+ word technical deep-dive of the **SVS Finance RAG Copilot** project.
+This document contains a professional resume section (150-250 words) suitable for job applications, followed by a comprehensive, 1000+ word technical deep-dive of the **Ankush Finance RAG Copilot** project.
 
 ---
 
@@ -25,7 +25,7 @@ Analyzing financial SEC filings (10-K and 10-Q) presents a major challenge for s
 2. **Financial Hallucinations:** Making up numerical metrics or substituting a competitor's numbers when data is missing.
 3. **High Latency/Cost:** Relying on heavy local hardware or expensive closed models with proprietary APIs.
 
-The **SVS Finance RAG Copilot** is a production-grade, highly optimized solution engineered to overcome these limitations. By integrating a multi-agent orchestration model, cloud-native hybrid retrieval, deterministic mathematical guardrails, and real-time audit telemetry, this copilot acts as a zero-hallucination assistant for financial analysts, trend-trackers, and risk auditors.
+The **Ankush Finance RAG Copilot** is a production-grade, highly optimized solution engineered to overcome these limitations. By integrating a multi-agent orchestration model, cloud-native hybrid retrieval, deterministic mathematical guardrails, and real-time audit telemetry, this copilot acts as a zero-hallucination assistant for financial analysts, trend-trackers, and risk auditors.
 
 Key differentiators from basic RAG implementations include:
 * **Multi-Agent Routing:** Dynamics query planning rather than feeding all questions to a generic prompt.
@@ -102,7 +102,7 @@ Quantifiable metrics from systematic automated testing run over 120 complex mult
 ### 5. Production-Ready Implementation
 
 #### Cloud Infrastructure
-Rather than prototyping inside single notebooks, the SVS Finance RAG Copilot is built for long-term production usage:
+Rather than prototyping inside single notebooks, the Ankush Finance RAG Copilot is built for long-term production usage:
 * **Vector Storage:** Utilizing Qdrant Cloud with payload filters ensures sub-millisecond retrieval filtering.
 * **Audit Logging:** Neon PostgreSQL acts as a serverless database to permanently log every query, parsed intent, metadata filter, response, evaluation score, and execution duration.
 

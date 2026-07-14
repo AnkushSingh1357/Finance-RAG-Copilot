@@ -1,5 +1,5 @@
 """
-SVS PRAVEEN - Finance RAG Copilot
+Ankush Singh - Finance RAG Copilot
 ingestion.py - PDF Parsing & Smart Chunking (Docling + PyMuPDF)
 """
 

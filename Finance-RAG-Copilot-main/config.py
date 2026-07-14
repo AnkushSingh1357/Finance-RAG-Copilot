@@ -1,5 +1,5 @@
 """
-SVS PRAVEEN - Finance RAG Copilot
+Ankush Singh - Finance RAG Copilot
 config.py - Central Configuration
 All settings come from .env file. No hardcoded secrets.
 """
@@ -29,7 +29,7 @@ GROQ_PLANNER_MODEL = os.getenv("GROQ_PLANNER_MODEL", "llama-3.3-70b-versatile")
 # ============================================================
 QDRANT_URL        = os.getenv("QDRANT_URL", "")
 QDRANT_API_KEY    = os.getenv("QDRANT_API_KEY", "")
-QDRANT_COLLECTION = os.getenv("QDRANT_COLLECTION", "praveen_rag_json")
+QDRANT_COLLECTION = os.getenv("QDRANT_COLLECTION", "ankush_rag_json")
 
 
 # ============================================================
@@ -77,8 +77,8 @@ PDF_DIR.mkdir(exist_ok=True)
 # ============================================================
 # LOGGER SETUP
 # ============================================================
-if getattr(builtins, "_SVS_PIPELINE_LOGGER_SINK_ID", None) is None:
-    builtins._SVS_PIPELINE_LOGGER_SINK_ID = logger.add(
+if getattr(builtins, "_Ankush_PIPELINE_LOGGER_SINK_ID", None) is None:
+    builtins._Ankush_PIPELINE_LOGGER_SINK_ID = logger.add(
         LOG_DIR / "pipeline.log",
         rotation="10 MB",
         level="INFO",

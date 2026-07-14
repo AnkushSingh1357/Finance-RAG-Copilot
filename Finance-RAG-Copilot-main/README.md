@@ -76,7 +76,7 @@ The pipeline consists of 8 layers, optimizing everything from document ingestion
    GROQ_API_KEY=your_groq_key
    QDRANT_URL=https://your-cluster.qdrant.io
    QDRANT_API_KEY=your_qdrant_key
-   QDRANT_COLLECTION=praveen_rag_json
+   QDRANT_COLLECTION=ankush_rag_json
    GROQ_LLM_MODEL=llama-3.3-70b-versatile
    GROQ_PLANNER_MODEL=llama-3.3-70b-versatile
    EMBED_MODEL=sentence-transformers/all-MiniLM-L6-v2
@@ -104,5 +104,5 @@ The system continuously self-evaluates outputs without relying on expensive LLM-
 ---
 
 ## 👥 Authors
-* **Ankush Singh** & SVS Praveen
+* **Ankush Singh** & Ankush Singh
 * Developed as an Enterprise AI Capstone/Showcase Project.

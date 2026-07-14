@@ -1,5 +1,5 @@
 """
-SVS PRAVEEN - Finance RAG Copilot
+Ankush Singh - Finance RAG Copilot
 reingest_all.py - Complete Wipe and Reingestion Script
 """
 

@@ -43,7 +43,7 @@ from sentence_transformers import SentenceTransformer
 # EXACT URL from your .env file
 QDRANT_URL = "https://c1e181dc-53cb-4be7-9808-904a9b2eae58.us-east4-0.gcp.cloud.qdrant.io"
 QDRANT_API_KEY = "YOUR_QDRANT_API_KEY_HERE"
-COLLECTION_NAME = "praveen_rag_json"
+COLLECTION_NAME = "ankush_rag_json"
 
 print("Connecting to Qdrant Cloud...")
 client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY, timeout=30)

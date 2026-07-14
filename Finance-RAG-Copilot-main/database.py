@@ -1,5 +1,5 @@
 """
-SVS PRAVEEN - Finance RAG Copilot
+Ankush Singh - Finance RAG Copilot
 database.py - Audit Logging with PostgreSQL & SQLite
 
 Stores every query, response, and evaluation metric permanently.

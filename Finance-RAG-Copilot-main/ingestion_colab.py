@@ -1,5 +1,5 @@
 """
-SVS PRAVEEN - Finance RAG Copilot
+Ankush Singh - Finance RAG Copilot
 ingestion_colab.py - Google Colab Ingestion Script with Pre-Flight Checks
 
 This script is customized to run on Google Colab to offload parsing and ingestion from your laptop.
